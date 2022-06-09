@@ -38,6 +38,10 @@ $(document).ready(function() {
         $('#card-panel-4').hide(3000)
     })
 
+    $('p').click(function(){
+        $(this).slideToggle(3000)
+    })
+
 });
 
 
